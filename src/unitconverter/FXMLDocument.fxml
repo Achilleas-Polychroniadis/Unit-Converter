@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="610.0" prefWidth="871.0" style="-fx-background-color: #202020;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unitconverter.FXMLDocumentController">
+   <children>
+      <TextField fx:id="fromUnitTF" layoutX="126.0" layoutY="358.0" promptText="Enter value" AnchorPane.bottomAnchor="222.0" AnchorPane.leftAnchor="126.0" AnchorPane.rightAnchor="545.0" AnchorPane.topAnchor="358.0">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </TextField>
+      <ChoiceBox fx:id="fromUnitPickerCB" layoutX="126.0" layoutY="283.0" style="-fx-font-size: 16px;" AnchorPane.bottomAnchor="302.0" AnchorPane.leftAnchor="126.0" AnchorPane.rightAnchor="545.0" AnchorPane.topAnchor="283.0" />
+      <ChoiceBox fx:id="toUnitPickerCB" layoutX="546.0" layoutY="286.0" style="-fx-font-size: 16px;" AnchorPane.bottomAnchor="299.0" AnchorPane.leftAnchor="546.0" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="286.0" />
+      <TextField fx:id="toUnitTF" editable="false" layoutX="546.0" layoutY="361.0" AnchorPane.bottomAnchor="219.0" AnchorPane.leftAnchor="546.0" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="361.0">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="184.0" layoutY="222.0" prefHeight="50.0" prefWidth="85.0" style="-fx-text-fill: #FFFFFF;" text="From:" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="338.0" AnchorPane.leftAnchor="184.0" AnchorPane.rightAnchor="602.0" AnchorPane.topAnchor="222.0">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="623.0" layoutY="225.0" prefHeight="50.0" prefWidth="46.0" style="-fx-text-fill: #FFFFFF;" text="To:" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="335.0" AnchorPane.leftAnchor="623.0" AnchorPane.rightAnchor="202.0" AnchorPane.topAnchor="225.0">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="327.0" layoutY="14.0" style="-fx-text-fill: #FFFFFF;" text="Unit Converter" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="546.0" AnchorPane.leftAnchor="327.0" AnchorPane.rightAnchor="325.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="typePickerCB" layoutX="336.0" layoutY="162.0" style="-fx-font-size: 16px;" AnchorPane.bottomAnchor="423.0" AnchorPane.leftAnchor="336.0" AnchorPane.rightAnchor="335.0" AnchorPane.topAnchor="162.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="397.0" layoutY="102.0" prefHeight="50.0" prefWidth="80.0" style="-fx-text-fill: #FFFFFF;" text="Type:" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="458.0" AnchorPane.leftAnchor="397.0" AnchorPane.rightAnchor="394.0" AnchorPane.topAnchor="102.0">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
